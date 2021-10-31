@@ -24,6 +24,7 @@ class HomeActivity : BaseActivity<ActivityHomeBinding>(), HomeActionsListener {
         )
         adapter = MealAdabter(itemsList, this)
         binding!!.recycler.adapter = adapter
+
         val layoutManager = CarouselLayoutManager(CarouselLayoutManager.HORIZONTAL)
         val recyclerView = binding!!.recycler
         recyclerView.layoutManager = layoutManager

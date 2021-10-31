@@ -92,7 +92,6 @@
             android:layout_marginBottom="16dp"
             android:paddingStart="8dp"
             android:paddingTop="2dp"
-
             android:paddingEnd="8dp"
             android:paddingBottom="2dp"
             android:text="1h 30Min"

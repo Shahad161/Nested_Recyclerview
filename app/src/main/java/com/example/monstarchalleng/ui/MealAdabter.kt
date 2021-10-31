@@ -13,6 +13,8 @@ import com.example.monstarchalleng.ui.categories.CategoriesAdapter
 import com.ibareq.nestedrecyclerviewsample.data.domain.Category
 import com.ibareq.nestedrecyclerviewsample.data.domain.Post
 import com.ibareq.nestedrecyclerviewsample.data.domain.enums.HomeItemType
+import com.mig35.carousellayoutmanager.CarouselLayoutManager
+import com.mig35.carousellayoutmanager.CarouselZoomPostLayoutListener
 import java.lang.Exception
 
 class MealAdabter(private val items: List<HomeItem<Any>>, private val listener: HomeActionsListener) : RecyclerView.Adapter<MealAdabter.BaseHomeViewHolder>() {
